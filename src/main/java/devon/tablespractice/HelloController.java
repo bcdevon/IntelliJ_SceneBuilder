@@ -20,7 +20,7 @@ public class HelloController implements Initializable {
     }
 
     public void onbuttonClicked(ActionEvent actionEvent){
-        System.out.println("I am clicked");
+        System.out.println("You clicked me!");
         TheLabel.setText("You clicked the button : " + count++);
     }
 }
